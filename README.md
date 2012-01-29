@@ -7,7 +7,7 @@ Modularized and [Sass](http://sass-lang.com/)y [normalize.css](http://necolas.gi
 Example
 -------
 
-See [\_my\_normalize.scss]().
+See [\_my\_normalize.scss](https://github.com/hail2u/normalize.scss/blob/master/_my_normalize.scss).
 
 
 LICENSE
