@@ -1,44 +1,44 @@
-/*! Based on normalize.css 2012-01-22T23:30 UTC - http://github.com/necolas/normalize.css */
+/*! _normalize.scss | http://github.com/hail2u/normalize.scss */
 
-@import "html5-blocks.scss";
-@import "html5-inline-blocks.scss";
-@import "html5-audio.scss";
-@import "html5-hidden.scss";
+@import "html5/blocks.scss";
+@import "html5/inline-blocks.scss";
+@import "html5/audio.scss";
+@import "html5/hidden.scss";
 
-@import "base-html.scss";
-@import "base-fix-font.scss";
-@import "base-body.scss";
+@import "base/html.scss";
+@import "base/fix-font.scss";
+@import "base/body.scss";
 
-@import "links-fix-outline.scss";
+@import "links/fix-outline.scss";
 
-@import "typography-h1.scss";
-@import "typography-abbr.scss";
-@import "typography-fix-bolder.scss";
-@import "typography-blockquote.scss";
-@import "typography-dfn.scss";
-@import "typography-mark.scss";
-@import "typography-fix-monospace.scss";
-@import "typography-pre.scss";
-@import "typography-q.scss";
-@import "typography-small.scss";
-@import "typography-sub-and-sup.scss";
+@import "typography/h1.scss";
+@import "typography/abbr.scss";
+@import "typography/fix-bolder.scss";
+@import "typography/blockquote.scss";
+@import "typography/dfn.scss";
+@import "typography/mark.scss";
+@import "typography/fix-monospace.scss";
+@import "typography/pre.scss";
+@import "typography/q.scss";
+@import "typography/small.scss";
+@import "typography/sub-and-sup.scss";
 
-@import "lists-fix-indent.scss";
-@import "lists-inside-nav.scss";
+@import "lists/fix-indent.scss";
+@import "lists/inside-nav.scss";
 
-@import "embed-img.scss";
-@import "embed-svg.scss";
+@import "embed/img.scss";
+@import "embed/svg.scss";
 
-@import "figures-figure.scss";
+@import "figures/figure.scss";
 
-@import "forms-form.scss";
-@import "forms-fieldset.scss";
-@import "forms-legend.scss";
-@import "forms-fix-font.scss";
-@import "forms-buttons.scss";
-@import "forms-checkbox-and-radio.scss";
-@import "forms-search.scss";
-@import "forms-fix-focus-inner.scss";
-@import "forms-textarea.scss";
+@import "forms/form.scss";
+@import "forms/fieldset.scss";
+@import "forms/legend.scss";
+@import "forms/fix-font.scss";
+@import "forms/buttons.scss";
+@import "forms/checkbox-and-radio.scss";
+@import "forms/search.scss";
+@import "forms/fix-focus-inner.scss";
+@import "forms/textarea.scss";
 
-@import "tables-fix-cell-spacing.scss";
+@import "tables/fix-cell-spacing.scss";
