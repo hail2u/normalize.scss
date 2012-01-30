@@ -13,12 +13,3 @@ textarea {
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
 }
-
-/*
- * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
- */
-
-button,
-input {
-    line-height: normal; /* 1 */
-}
