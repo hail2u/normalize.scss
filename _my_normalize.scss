@@ -1,7 +1,7 @@
 /*! _my_normalize.scss | http://github.com/hail2u/normalize.scss */
 
 /*
- * Use html5shiv instead.
+ * Use html5shiv instead
  */
 
 // @import "html5/blocks.scss";
@@ -25,7 +25,7 @@ hr {
 
 @import "links/fix-outline.scss";
 
-@import "typography/h1.scss";
+@import "typography/headings.scss";
 @import "typography/abbr.scss";
 @import "typography/fix-bolder.scss";
 @import "typography/blockquote.scss";
@@ -37,7 +37,7 @@ hr {
 @import "typography/small.scss";
 @import "typography/sub-and-sup.scss";
 
-@import "lists/fix-indent.scss";
+@import "lists/fix-margin-and-padding.scss";
 
 /*
  * Does it need?
@@ -56,6 +56,7 @@ hr {
 @import "forms/fix-font.scss";
 @import "forms/fix-line-height.scss";
 @import "forms/buttons.scss";
+@import "forms/disabled.scss";
 @import "forms/checkbox-and-radio.scss";
 @import "forms/search.scss";
 @import "forms/fix-focus-inner.scss";

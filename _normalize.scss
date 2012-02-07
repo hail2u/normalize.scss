@@ -11,7 +11,7 @@
 
 @import "links/fix-outline.scss";
 
-@import "typography/h1.scss";
+@import "typography/headings.scss";
 @import "typography/abbr.scss";
 @import "typography/fix-bolder.scss";
 @import "typography/blockquote.scss";
@@ -23,7 +23,7 @@
 @import "typography/small.scss";
 @import "typography/sub-and-sup.scss";
 
-@import "lists/fix-indent.scss";
+@import "lists/fix-margin-and-padding.scss";
 @import "lists/inside-nav.scss";
 
 @import "embed/img.scss";
@@ -37,6 +37,7 @@
 @import "forms/fix-font.scss";
 @import "forms/fix-line-height.scss";
 @import "forms/buttons.scss";
+@import "forms/disabled.scss";
 @import "forms/checkbox-and-radio.scss";
 @import "forms/search.scss";
 @import "forms/fix-focus-inner.scss";
