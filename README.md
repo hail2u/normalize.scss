@@ -10,6 +10,15 @@ Example
 See [\_my\_normalize.scss](https://github.com/hail2u/normalize.scss/blob/master/_my_normalize.scss).
 
 
+Note
+----
+
+Some partials are deprecated and will be removed:
+
+  - typography/\_h1.scss
+  - lists/\_fix-indent.scss
+
+
 LICENSE
 -------
 
