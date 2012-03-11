@@ -63,12 +63,5 @@ hr {
 @import "forms/search";
 @import "forms/fix-focus-inner";
 @import "forms/textarea";
-@import "forms/placeholder";
-
-/*
- * WebKit's behavior is better than Fx or else.
- */
-
-// @import "forms/fix-focus-placeholder";
 
 @import "tables/fix-cell-spacing";

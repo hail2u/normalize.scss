@@ -15,8 +15,10 @@ Note
 
 Some partials are deprecated and will be removed:
 
-  - typography/\_h1.scss
+  - forms/\_fix-focus-placeholder.scss
+  - forms/\_placeholder.scss
   - lists/\_fix-indent.scss
+  - typography/\_h1.scss
 
 
 LICENSE
