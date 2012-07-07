@@ -1,6 +1,7 @@
 /*
- * 1. Addresses appearance set to searchfield in S5, Chrome
- * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ * 1. Addresses `appearance` set to `searchfield` in S5, Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in S5, Chrome (include `-moz`
+ *    to future-proof).
  */
 
 input[type="search"] {
@@ -11,7 +12,7 @@ input[type="search"] {
 }
 
 /*
- * Removes inner padding and search cancel button in S5, Chrome on OS X
+ * Removes inner padding and search cancel button in S5, Chrome on OS X.
  */
 
 input[type="search"]::-webkit-search-decoration,

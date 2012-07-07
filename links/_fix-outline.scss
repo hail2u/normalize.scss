@@ -1,5 +1,5 @@
 /*
- * Addresses outline displayed oddly in Chrome
+ * Addresses `outline` inconsistency between Chrome and other browsers.
  */
 
 a:focus {
@@ -7,11 +7,11 @@ a:focus {
 }
 
 /*
- * Improves readability when focused and also mouse hovered in all browsers
+ * Improves readability when focused and also mouse hovered in all browsers.
  * people.opera.com/patrickl/experiments/keyboard/test
  */
 
-a:hover,
-a:active {
+a:active,
+a:hover {
     outline: 0;
 }
