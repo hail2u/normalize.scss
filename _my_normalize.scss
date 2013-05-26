@@ -10,49 +10,26 @@
 // @import "html5/hidden";
 
 @import "base/html";
-@import "base/fix-font";
 @import "base/body";
-
-/*
- * Addresses box sizing set to border-box in Firefox (include -webkit to future-proof)
- */
-
-hr {
-  height: 0;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
 
 @import "links/fix-outline";
 
 @import "typography/headings";
 @import "typography/abbr";
 @import "typography/fix-bolder";
-@import "typography/blockquote";
 @import "typography/dfn";
 @import "typography/mark";
-@import "typography/fix-margin";
 @import "typography/fix-monospace";
 @import "typography/pre";
 @import "typography/q";
 @import "typography/small";
 @import "typography/sub-and-sup";
 
-@import "lists/fix-margin-and-padding";
-
-/*
- * Does it need?
- */
-
-// @import "lists-inside-nav";
-
 @import "embed/img";
 @import "embed/svg";
 
 @import "figures/figure";
 
-@import "forms/form";
 @import "forms/fieldset";
 @import "forms/legend";
 @import "forms/fix-font";

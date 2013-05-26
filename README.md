@@ -13,7 +13,7 @@ See [\_my\_normalize.scss](https://github.com/hail2u/normalize.scss/blob/master/
 LICENSE
 -------
 
-Public domain (same as normalize.css)
+MIT License (same as normalize.css): http://hail2u.mit-license.org/2013
 
 
 AUTHOR

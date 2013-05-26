@@ -1,12 +1,9 @@
-/*
- * 1. Corrects color not being inherited in IE6/7/8/9.
- * 2. Corrects text not wrapping in FF3.
- * 3. Corrects alignment displayed oddly in IE6/7.
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 
 legend {
     border: 0; /* 1 */
-    padding: 0;
-    white-space: normal; /* 2 */
-    *margin-left: -7px; /* 3 */
+    padding: 0; /* 2 */
 }

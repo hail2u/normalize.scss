@@ -1,7 +1,8 @@
-/*
- * Addresses styling not present in S5, Chrome.
+/**
+ * Address styling not present in IE 8/9.
  */
 
-dfn {
-    font-style: italic;
+mark {
+    background: #ff0;
+    color: #000;
 }

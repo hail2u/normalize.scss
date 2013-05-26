@@ -1,15 +1,14 @@
-/*
- * 1. Corrects font size not being inherited in all browsers.
- * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome.
- * 3. Improves appearance and consistency in all browsers.
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 
 button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
-    margin: 0; /* 2 */
-    vertical-align: baseline; /* 3 */
-    *vertical-align: middle; /* 3 */
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
 }

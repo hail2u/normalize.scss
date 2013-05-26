@@ -1,17 +1,7 @@
-/*
- * Addresses CSS quotes not supported in IE6/7.
+/**
+ * Set consistent quote types.
  */
 
 q {
-    quotes: none;
-}
-
-/*
- * Addresses `quotes` property not supported in S4.
- */
-
-q:before,
-q:after {
-    content: '';
-    content: none;
+    quotes: "\201C" "\201D" "\2018" "\2019";
 }

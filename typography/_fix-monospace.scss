@@ -1,6 +1,5 @@
-/*
- * Corrects font family set oddly in IE6, S4/5, Chrome.
- * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
  */
 
 code,
@@ -8,6 +7,5 @@ kbd,
 pre,
 samp {
     font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
     font-size: 1em;
 }
