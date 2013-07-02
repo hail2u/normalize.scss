@@ -5,7 +5,6 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "components",
-    "_my_normalize.scss"
+    "components"
   ]
 }
