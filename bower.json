@@ -1,7 +1,6 @@
 {
   "name": "normalize.scss",
   "version": "2.1.2",
-  "main": "_normalize.scss",
   "ignore": [
     "**/.*",
     "node_modules",
