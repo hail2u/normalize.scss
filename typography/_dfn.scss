@@ -1,8 +1,7 @@
 /**
- * Address styling not present in IE 8/9.
+ * Address styling not present in Safari 5 and Chrome.
  */
 
-mark {
-    background: #ff0;
-    color: #000;
+dfn {
+    font-style: italic;
 }
