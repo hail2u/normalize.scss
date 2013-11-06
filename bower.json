@@ -1,6 +1,6 @@
 {
   "name": "modularized-normalize-scss",
-  "version": "2.1.3+fix20131025",
+  "version": "2.1.4",
   "ignore": [
     "**/.*",
     "node_modules",
