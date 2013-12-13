@@ -43,7 +43,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('get_orig', function () {
-    var orig_url = 'http://necolas.github.com/normalize.css/latest/normalize.css';
+    var orig_url = 'http://necolas.github.com/normalize.css/2.1.3/normalize.css';
     var orig_file = 'tmp/normalize.orig.css';
 
     var done = this.async();
