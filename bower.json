@@ -3,10 +3,10 @@
   "version": "2.1.4",
   "ignore": [
     "**/.*",
+    "Gruntfile.js",
+    "bower.json",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests",
+    "package.json",
     "tmp"
   ]
 }
