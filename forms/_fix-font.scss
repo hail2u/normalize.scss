@@ -1,14 +1,16 @@
 /**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
+ * 1. Correct color not being inherited in all browsers.
+ *    Known issue: `select` will not inherit color in Chrome and Safari on OS X.
+ * 2. Correct font properties not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 
 button,
 input,
+optgroup,
 select,
 textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
+    color: inherit; /* 1 */
+    font: inherit; /* 2 */
     margin: 0; /* 3 */
 }
