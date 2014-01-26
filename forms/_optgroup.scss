@@ -1,8 +1,8 @@
 /**
- * Re-apply the `font-weight` to avoid modifying the default UX, and because
- * the default cannot be changed in Chrome and Safari on OS X.
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 
 optgroup {
-    font-weight: bold;
+  font-weight: bold;
 }

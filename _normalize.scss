@@ -1,7 +1,10 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0-rc.1 | MIT License | git.io/normalize */
 
-/* ==========================================================================
-   HTML5 display definitions
+@import "base/html";
+@import "base/body";
+
+
+/* HTML5 display definitions
    ========================================================================== */
 
 @import "html5/blocks";
@@ -10,74 +13,66 @@
 @import "html5/hidden";
 
 
-/* ==========================================================================
-   Base
-   ========================================================================== */
-
-@import "base/html";
-@import "base/body";
-
-
-/* ==========================================================================
-   Links
+/* Links
    ========================================================================== */
 
 @import "links/fix-background";
 @import "links/fix-outline";
 
 
-/* ==========================================================================
-   Typography
+/* Text-level semantics
    ========================================================================== */
 
-@import "typography/headings";
-@import "typography/abbr";
-@import "typography/fix-bolder";
-@import "typography/dfn";
-@import "typography/hr";
-@import "typography/mark";
-@import "typography/fix-monospace";
-@import "typography/pre";
-@import "typography/q";
-@import "typography/small";
-@import "typography/sub-and-sup";
+@import "text-level/abbr";
+@import "text-level/fix-bolder";
+@import "text-level/dfn";
+@import "text-level/headings";
+@import "text-level/mark";
+@import "text-level/small";
+@import "text-level/sub-and-sup";
 
 
-/* ==========================================================================
-   Embedded content
+/* Embedded content
    ========================================================================== */
 
 @import "embed/img";
 @import "embed/svg";
 
 
-/* ==========================================================================
-   Figures
+/* Grouping content
    ========================================================================== */
 
-@import "figures/figure";
+@import "grouping/figure";
+@import "grouping/hr";
+@import "grouping/pre";
+@import "grouping/fix-monospace";
 
 
-/* ==========================================================================
-   Forms
+/* Forms
    ========================================================================== */
 
-@import "forms/fieldset";
-@import "forms/legend";
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
 @import "forms/fix-font";
-@import "forms/optgroup";
-@import "forms/fix-line-height";
+@import "forms/fix-overflow";
 @import "forms/fix-text-transform";
 @import "forms/buttons";
 @import "forms/disabled";
-@import "forms/checkbox-and-radio";
-@import "forms/search";
 @import "forms/fix-focus-inner";
+@import "forms/fix-line-height";
+@import "forms/checkbox-and-radio";
+@import "forms/number";
+@import "forms/search";
+@import "forms/fieldset";
+@import "forms/legend";
 @import "forms/textarea";
+@import "forms/optgroup";
 
 
-/* ==========================================================================
-   Tables
+/* Tables
    ========================================================================== */
 
 @import "tables/fix-cell-spacing";

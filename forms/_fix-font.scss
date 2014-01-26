@@ -1,7 +1,7 @@
 /**
- * 1. Correct color not being inherited in all browsers.
- *    Known issue: `select` will not inherit color in Chrome and Safari on OS X.
- * 2. Correct font properties not being inherited in all browsers.
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 
@@ -10,7 +10,7 @@ input,
 optgroup,
 select,
 textarea {
-    color: inherit; /* 1 */
-    font: inherit; /* 2 */
-    margin: 0; /* 3 */
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
 }
