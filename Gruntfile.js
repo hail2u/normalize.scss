@@ -1,13 +1,9 @@
-'use strcit';
+/*jshint node:true */
+'use strict';
 
 var request = require('request');
 
 module.exports = function (grunt) {
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -41,6 +37,13 @@ module.exports = function (grunt) {
       }
     }
   });
+
+  grunt.util.linefeed = '\n';
+
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   grunt.registerTask('get_orig', function () {
     var orig_url = 'http://necolas.github.com/normalize.css/3.0.0/normalize.css';
