@@ -46,7 +46,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
 
   grunt.registerTask('get_orig', function () {
-    var orig_url = 'http://necolas.github.com/normalize.css/3.0.0/normalize.css';
+    var orig_url = 'http://necolas.github.com/normalize.css/3.0.1/normalize.css';
     var orig_file = 'tmp/normalize.orig.css';
 
     var done = this.async();
