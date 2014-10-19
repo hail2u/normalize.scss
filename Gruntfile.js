@@ -21,9 +21,11 @@ module.exports = function (grunt) {
     sass: {
       test: {
         options: {
-          style: 'compressed',
-          loadPath: process.cwd()
+          loadPath: process.cwd(),
+          sourcemap: 'none',
+          style: 'compressed'
         },
+
         src: ['tmp/normalize.scss'],
         dest: 'tmp/normalize.test.css'
       }
@@ -31,8 +33,12 @@ module.exports = function (grunt) {
 
     cssmin: {
       test: {
-        filter: 'isFile',
+        options: {
+          keepSpecialComments: 0,
+        },
+
         expand: true,
+        filter: 'isFile',
         src: ['tmp/*.css']
       }
     }
