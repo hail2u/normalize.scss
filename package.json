@@ -1,14 +1,37 @@
 {
-  "scripts": {
-    "test": "grunt test"
+  "name": "modularized-normalize-scss",
+  "description": "Modularized and Sassy Normalize.css.",
+  "version": "3.0.2",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "bugs": {
+    "url": "https://github.com/hail2u/normalize.scss/issues"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-copy": "~0.7.0",
-    "grunt-contrib-sass": "~0.8.0",
-    "grunt-contrib-cssmin": "~0.10.0",
-    "request": "~2.45.0"
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "request": "^2.45.0"
   },
-  "private": true
+  "homepage": "https://github.com/hail2u/normalize.scss",
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "partial",
+    "normalize"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://hail2u.mit-license.org/2013"
+  },
+  "main": "_normalize.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hail2u/normalize.scss.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
 }
