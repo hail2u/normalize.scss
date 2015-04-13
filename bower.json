@@ -4,7 +4,6 @@
   "ignore": [
     "**/.*",
     "Gruntfile.js",
-    "bower.json",
     "node_modules",
     "package.json",
     "tmp"
