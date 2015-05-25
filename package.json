@@ -37,10 +37,7 @@
     "partial",
     "normalize"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "http://hail2u.mit-license.org/2013"
-  },
+  "license": "MIT",
   "main": "_normalize.scss",
   "repository": {
     "type": "git",
