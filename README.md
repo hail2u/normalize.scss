@@ -10,7 +10,7 @@ INSTALLATION
 Three options are available:
 
   1. [Download package][3]
-  2. Clone with Git: `$ git clone https://github.com/hail2u/normalize-scss.git`
+  2. Clone with Git: `$ git clone https://github.com/hail2u/normalize.scss.git`
   3. Install with [Bower][4]: `$ bower install modularized-normalize-scss --save-dev`
 
 
