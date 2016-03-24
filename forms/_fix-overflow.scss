@@ -1,7 +1,11 @@
 /**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ * 2. Show the overflow in Edge, Firefox, and IE.
  */
 
-button {
+button,
+input, /* 1 */
+select { /* 2 */
   overflow: visible;
 }

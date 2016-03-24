@@ -10,6 +10,7 @@
 @import 'html5/blocks';
 @import 'html5/inline-blocks';
 @import 'html5/audio';
+@import 'html5/progress';
 @import 'html5/hidden';
 
 
@@ -42,10 +43,9 @@
 /* Grouping content
    ========================================================================== */
 
+@import 'grouping/fix-monospace';
 @import 'grouping/figure';
 @import 'grouping/hr';
-@import 'grouping/pre';
-@import 'grouping/fix-monospace';
 
 
 /* Forms
@@ -57,22 +57,16 @@
  */
 
 @import 'forms/fix-font';
+@import 'forms/optgroup';
 @import 'forms/fix-overflow';
+@import 'forms/margin';
 @import 'forms/fix-text-transform';
-@import 'forms/buttons';
-@import 'forms/disabled';
+@import 'forms/cursor';
+@import 'forms/button';
 @import 'forms/fix-focus-inner';
-@import 'forms/fix-line-height';
-@import 'forms/checkbox-and-radio';
-@import 'forms/number';
-@import 'forms/search';
 @import 'forms/fieldset';
 @import 'forms/legend';
 @import 'forms/textarea';
-@import 'forms/optgroup';
-
-
-/* Tables
-   ========================================================================== */
-
-@import 'tables/fix-cell-spacing';
+@import 'forms/checkbox-and-radio';
+@import 'forms/number';
+@import 'forms/search';

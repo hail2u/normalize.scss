@@ -1,9 +1,9 @@
 /*
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
  */
 
-[hidden],
-template {
+template, /* 1 */
+[hidden] {
   display: none;
 }
