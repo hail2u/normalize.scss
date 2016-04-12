@@ -15,17 +15,6 @@
     "grunt-contrib-sass": "^0.8.1",
     "request": "^2.45.0"
   },
-  "files": [
-    "_normalize.scss",
-    "base/",
-    "embed/",
-    "forms/",
-    "grouping/",
-    "html5/",
-    "links/",
-    "tables/",
-    "text-level/"
-  ],
   "homepage": "https://github.com/hail2u/normalize.scss",
   "keywords": [
     "css",
